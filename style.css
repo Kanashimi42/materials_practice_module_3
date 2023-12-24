@@ -1,0 +1,38 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{font-family: Calibri; color: #606060}
+.box
+{
+	display: block;
+	width: 550px;
+	height: 550px;
+	margin: auto;
+}
+.wr
+{
+	display: block;
+	width: 550px;
+	height: 80px;
+	margin: 15px auto;
+	display: flex;
+	justify-content: space-between;
+}
+.wr img
+{
+	width: 80px;
+	height: 80px;
+
+}
+.wp a img
+{
+
+animation: slidein 2s;
+}
+@keyframes slidein {
+  from {
+    opacity: 0.5;
+  }
+
+  to {
+     opacity: 1;
+  }
+}
